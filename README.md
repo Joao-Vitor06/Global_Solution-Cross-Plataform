@@ -212,7 +212,7 @@ Se a data e o volume aparecerem e o app mostrar "Dados REAIS ... Sabesp" no pain
 
 ## 9. Vídeo
 
-🎥 **Link:** `COLE_AQUI_O_LINK_DO_VIDEO` (máx. 3 minutos). O roteiro sugerido está em [`docs/ROTEIRO_VIDEO.md`](docs/ROTEIRO_VIDEO.md).
+🎥 **Link:** `https://youtu.be/xKUerjCbWuU` (máx. 3 minutos). O roteiro sugerido está em [`docs/ROTEIRO_VIDEO.md`](docs/ROTEIRO_VIDEO.md).
 
 ## 10. Licença
 
