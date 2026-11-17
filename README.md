@@ -209,15 +209,6 @@ curl -s "https://mananciais.sabesp.com.br/api/v4/sistemas/65/dados/diario/2026-1
 ```
 Se a data e o volume aparecerem e o app mostrar "Dados REAIS ... Sabesp" no painel de Água, está integrado. Se o app mostrar o aviso de Sabesp indisponível, ajuste `SabespService` (campo de data/volume) conforme o JSON recebido.
 
-**Gerar APK de release (diferencial)**
-
-```bash
-flutter build apk --release
-# arquivo: build/app/outputs/flutter-apk/app-release.apk
-```
-Publique-o em *GitHub → Releases → Draft a new release → anexar o .apk*.
-
-**Prints:** rode o app, use o botão de captura do emulador (ou `adb exec-out screencap -p > assets/screenshots/02_visao_geral.png`) e salve com os nomes usados na seção 3.
 
 ## 9. Vídeo
 
