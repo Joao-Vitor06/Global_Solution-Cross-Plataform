@@ -120,7 +120,7 @@ class TerritoryProvider extends ChangeNotifier {
         fetchedAt: now,
       );
     } catch (e) {
-      final reason = e is SabespException ? e.message : 'sem conexão';
+      final reason = e is SabespException ? e.message : 'falha de rede ou bloqueio do navegador (CORS)';
       final cached = _storage.loadWaterCache();
       if (cached != null) {
         notices.add('Sabesp indisponível ($reason): volume dos mananciais exibido a partir do cache local.');

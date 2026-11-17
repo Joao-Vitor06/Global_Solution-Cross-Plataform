@@ -66,6 +66,7 @@ class _AppView extends StatelessWidget {
       },
       initialRoute: initialRoute,
       onGenerateRoute: AppRouter.generate,
+      onGenerateInitialRoutes: (name) => [AppRouter.generate(RouteSettings(name: name))],
     );
   }
 }
