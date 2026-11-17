@@ -31,8 +31,6 @@
 
 ## 3. Demonstração visual
 
-> Salve os prints em `assets/screenshots/` com os nomes abaixo (veja o passo a passo em "Como executar").
-
 | Consentimento | Visão geral | Painel de Água |
 |:--:|:--:|:--:|
 | ![Consentimento](assets/screenshots/01_consentimento.png) | ![Visão geral](assets/screenshots/02_visao_geral.png) | ![Painel Água](assets/screenshots/03_painel_agua.png) |
